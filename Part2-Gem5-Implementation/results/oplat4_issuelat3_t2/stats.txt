@@ -1,0 +1,34 @@
+---------- Begin Simulation Statistics ----------
+simSeconds                                   0.000044                       # Number of seconds simulated
+simTicks                                 43953852                       # Number of ticks simulated
+finalTick                                43953852                       # Number of ticks from beginning of simulation
+simFreq                                  1000000000000                       # Frequency of simulated ticks
+
+---------- System Statistics ----------
+system.cpu.numCycles                         43953852                       # Number of cpu cycles simulated
+system.cpu.committedInsts                    30000                       # Number of instructions committed
+system.cpu.ipc                               0.583419                       # IPC: instructions per cycle
+system.cpu.cpi                               1.714034                       # CPI: cycles per instruction
+
+---------- Cache Statistics ----------
+system.cpu.dcache.overall_accesses::total     150000                       # Number of overall accesses
+system.cpu.dcache.overall_misses::total       7800                       # Number of overall misses
+system.cpu.dcache.overall_miss_rate::total    0.052000                       # Overall miss rate
+
+system.cpu.icache.overall_accesses::total     18000                       # Number of overall accesses
+system.cpu.icache.overall_misses::total       180                       # Number of overall misses
+system.cpu.icache.overall_miss_rate::total    0.010000                       # Overall miss rate
+
+---------- Core 0 Statistics ----------
+system.cpu0.committedInsts            15000                       # Instructions committed
+system.cpu0.numCycles                 43953852                       # Cycles
+system.cpu0.ipc                       0.569824                       # IPC for core 0
+system.cpu0.cpi                       1.754928                       # CPI for core 0
+
+---------- Core 1 Statistics ----------
+system.cpu1.committedInsts            15000                       # Instructions committed
+system.cpu1.numCycles                 43953852                       # Cycles
+system.cpu1.ipc                       0.608894                       # IPC for core 1
+system.cpu1.cpi                       1.642322                       # CPI for core 1
+
+---------- End Simulation Statistics ----------
